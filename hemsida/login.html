@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Coop - Inloggning</title>
+</head>
+<body>
+<div id="box">
+<form method="POST" action="index.html">
+<!-- <table>
+    <tr>
+      <td align="right"><p id="text">Användarnamn:</p></td>
+      <td align="left">
+		<input type="text" name="j_username">
+	</td>
+    </tr>
+    <tr>
+      <td align="right"><p id="text">Lösenord:</p></td>
+      <td align="left"><input type="password" name="j_password"></td>
+    </tr>
+    <tr>
+      <td align="right"><input type="submit" value="Logga In"></td>
+      <td align="left"><input type="reset" value=" "></></td>
+    </tr> -->
+
+<button onclick="myFunction()">Logga In</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x;
+
+var name=prompt("Användarnamn","");
+var name=prompt("Lösenord","");
+
+if (name!=null)
+  {
+  x="Hello " + name + "! How are you today?";
+  document.getElementById("demo").innerHTML=x;
+  }
+}
+</script>
+
+<!-- </table> -->
+</form>
+</div> 
+</body>
+</html>
