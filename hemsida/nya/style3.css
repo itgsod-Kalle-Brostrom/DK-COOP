@@ -1,0 +1,36 @@
+body {
+	
+}
+
+
+#Menu a:link {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#Menu a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#Menu2 a:link {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#Menu2 a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.tableizer-and td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid white;
+}
+table.tableizer-and {
+	border: 6px solid lightgreen; font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+} 

@@ -1,0 +1,95 @@
+body
+{
+background-image:url('../images/coop.png');
+background-repeat:no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-color: #323941;
+}
+
+input[type="text"] {
+position: fixed
+border: 2px solid #32829D;
+background: #ffffff;
+color:#32829D;
+margin-right:500px;
+}
+
+input[type="password"] {
+border: 2px solid #32829D;
+background: #ffffff;
+color:#32829D;
+}
+
+input[type="submit"] {
+border: black;
+background: transparent;
+color:black;
+position: relative; 
+
+}
+
+input[type="submit"]:hover {
+border: thin #999999 outset;
+filter:alpha(opacity=50);-moz-opacity:.5;opacity:.5;
+background: #FFFFFF;
+color: #000000;
+}
+input[type="submit"]:focus  {
+border: thin #000000 solid;
+background: #FFFFFF;
+color: #000000;
+}
+input[type="submit"]:focus:hover {
+border: thin #000000 solid;
+filter:alpha(opacity=100);-moz-opacity:1;opacity:1;
+background: #FFFFFF;
+color: #000000;
+}
+input[type="reset"] {
+border: none;
+background: transparent;
+color:#32829D;
+}
+input[type="reset"]:hover {
+border: thin #999999 outset;
+filter:alpha(opacity=50);-moz-opacity:.5;opacity:.5;
+background: #FFFFFF;
+color: #000000;
+}
+input[type="reset"]:focus  {
+border: thin #000000 solid;
+background: #FFFFFF;
+color: #000000;
+}
+input[type="reset"]:focus:hover {
+border: thin #000000 solid;
+filter:alpha(opacity=100);-moz-opacity:1;opacity:1;
+background: #FFFFFF;
+color: #000000;
+}
+
+#box
+{
+position: absolute;
+width: 50%;
+height: 30%;
+left: 42%;
+top: 65%;
+}
+
+#box_error
+{
+position: absolute;
+width: 50%;
+height: 30%;
+left: 39%;
+top: 65%;
+}
+
+#text
+{
+font-family:arial;
+color:white;
+font-size:14px;
+}

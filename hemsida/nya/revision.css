@@ -1,0 +1,39 @@
+body{
+	background-color: white;
+}
+table {
+	width: 550px;
+	height: 600px;
+	border: 2px solid black;
+}
+
+tr {
+	background: white;
+	color: black;
+
+}
+
+td {
+	text-align: center;
+	font:15px tahoma;
+	border: 2px solid black;
+}
+
+th {
+	background: lightblue;
+	color: black;
+	border: 2px solid black;
+}
+
+h1 {
+	width: 300px
+}
+
+#Menu a:link, a:visited {
+	color: #14ab30;
+	text-decoration: none;
+
+	
+}
+
+

@@ -1,0 +1,51 @@
+#container {
+	border: thin solid black;
+	width: 900px;
+	margin: auto;
+
+}
+
+#header {
+	height: 100px;
+	border-top: thin solid black;
+	border-bottom: thin solid black;
+	background-color: yellow;
+
+
+}
+
+#menu {
+	height: 30px;
+	 border-bottom: thin solid black;
+
+}
+#leftmargin {
+	float: left;
+	width: 150px;
+
+}
+#rightmargin {
+	float: right;
+	width: 150px;
+
+}
+#body {
+	margin-left: 150px;
+	margin-right: 150px;
+	border: thin solid black;
+
+}
+
+#footer {
+clear: both;
+border-top: thin solid black;
+}
+.title {
+	margin: auto;
+	border: thin solid black;
+	text-align: center;
+	font-family: stencil std;
+	width: 200px;
+	background-color: white;
+
+}
