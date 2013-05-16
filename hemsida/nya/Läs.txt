@@ -1,0 +1,3 @@
+Css ska ligga i css mappen, inte html mappen!
+
+Lägg inte in skräp filer i html mappen!!!
