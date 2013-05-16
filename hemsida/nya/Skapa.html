@@ -1,13 +1,13 @@
-<!doctype html>
+<!-- <!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/skapa.css" />
 	<title>Coop - Registrering</title>
 </head>
-<table width="300" height="100" border="2" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC"> 
+<table width="300" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC"> 
 <tr> 
-<form name="form1" method="post" action="CoopKalle.html"> 
+<form name="form1" method="post" action="login.html"> 
 <td> 
 <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF"> 
 <tr> 
@@ -33,7 +33,7 @@
   		<option value="revisor">Revisor</option>
 	</select></td> 
 <td>&nbsp;</td> <!-- det är ett tomt mellanrum, kan även lägga till en till text eller en annan funktion om annat behövs -->
-</tr>
+<!-- </tr>
 <tr>
 <td>
 	 <input type="submit" name="Submit" value="Skapa konto"></td> 
@@ -43,5 +43,68 @@
 </form> 
 </tr>
 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Coop - Inloggning</title>
+</head>
+<body>
+<div id="box">
+<class=a>
+    <tr>
+      <td align="right"><p id="text">Användarnamn:</p></td>
+      <td align="left">
+		<input type="text" name="j_username">
+	</td>
+    </tr>
+    <tr>
+      <td align="right"><p id="text">Lösenord:</p></td>
+      <td align="left"><input type="password" name="j_password"></td>
+    </tr>
+<br></br>
+<td>
+	Behörligheter?<br>
+	<select>
+		<option value="valj">Alternativ</option>
+  		<option value="admin">Adminstratör</option>
+  		<option value="arbetare">Arbetare</option>
+  		<option value="revisor">Revisor</option>
+	</select></td> 
+<td>&nbsp;</td> <!-- det är ett tomt mellanrum, kan även lägga till en till text eller en annan funktion om annat behövs -->
+</tr>
+<form method="get" action="login.html">
+    <button type="submit">Skapa konto</button>
+</form>
+
+
+
+<!-- <button onclick="myFunction()">Logga In</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x;
+
+var name=prompt("Användarnamn","");
+var name=prompt("Lösenord","");
+
+if (name!=null)
+  {
+  x="Hello " + name + "! How are you today?";
+  document.getElementById("demo").innerHTML=x;
+  }
+}
+</script>
+
+ </table> -->
+</form>
+</div> 
 </body>
 </html>
